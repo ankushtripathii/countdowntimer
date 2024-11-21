@@ -5,7 +5,7 @@ const startAudio = new Audio("/start.mp3");
 const pauseAudio = new Audio("/pause.mp3");
 
 const PomodoroTimer = () => {
-  const SESSION_LENGTH = 1 * 60;
+  const SESSION_LENGTH = 60 * 60;
   const DEFAULT_PAUSE_LENGTH = 10 * 60;
   const CUSTOM_BREAKS = [
     { hour: 12, minute: 30, length: 25 * 60, minSessions: 3 },
